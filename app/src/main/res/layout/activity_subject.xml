@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pap"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.history.Subject">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/logname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="בחר נושא לימוד"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sub1"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:text="בית שני" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:onClick="sub2"
+        android:textSize="20dp"
+        android:text="לאומיות" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:onClick="sub3"
+        android:text="המאבק על המדינה" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sub4"
+        android:textSize="20dp"
+        android:text="בונים מדינה" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="20dp" />
+</LinearLayout>
